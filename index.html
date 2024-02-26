@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Hosting Platform</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ad7bf7; /* Pastel purple */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .video-container {
+            margin-bottom: 20px;
+            background-color: #f7b7e7; /* Pastel pink */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .video-container h2 {
+            background-color: #ad7bf7; /* Pastel purple */
+            color: #fff;
+            margin: 0;
+            padding: 10px;
+            font-size: 1.2em;
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (change to match your video's aspect ratio) */
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Zero's special site
+    </header>
+    <div class="container">
+        <div class="video-container">
+            <h2>Special Video 1</h2>
+            <div class="video-wrapper">
+                <!-- Replace the URL with your video embed URL -->
+                <iframe width="560" height="315" src="https://onelineplayer.com/player.html?autoplay=false&autopause=false&muted=false&loop=true&url=https%3A%2F%2Fjean29.oceansaver.in%2Fpacific%2F%3Fok6DdoyHP5YxMMSgCPirmyewCp8&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-container">
+            <h2>Special Video 2</h2>
+            <div class="video-wrapper">
+                <!-- Replace the URL with your video embed URL -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-container">
+            <h2>Special Video 3</h2>
+            <div class="video-wrapper">
+                <!-- Replace the URL with your video embed URL -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- Add more video slots as needed -->
+    </div>
+</body>
+</html>
